@@ -1,7 +1,8 @@
 //can hold functions
 //call object methods using dot notation
 
-var BrewsterTheDog = {
+
+var brewsterTheDog = {
   age: 4,
   furColor: 'tan',
   dog: function() {
@@ -12,8 +13,8 @@ var BrewsterTheDog = {
   },
 };
 
-BrewsterTheDog.dog();
-BrewsterTheDog.eat('Hungery Howie pizza crust');
+brewsterTheDog.dog();
+brewsterTheDog.eat('Hungery Howie pizza crust');
 
 /*built-in methods are:
 arrays
@@ -24,3 +25,12 @@ regexp
 date
 math*/
 
+// Define a function which will work as a method
+         function addPrice(amount){
+            this.price = amount; 
+         }
+         
+         function book(title, author){
+            this.title = title;
+            this.author  = author;
+            this.addPrice = addPrice; // Assign that method as property.
