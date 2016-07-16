@@ -1,7 +1,7 @@
 //a statement that can have two values, true or false
 
-10 < 9;  //returns a value of false
-11 > 8; //returns of value of true
+console.log(10 < 9);  //returns a value of false
+console.log(11 > 8); //returns of value of true
 
 var yearsLivedInIndiana = 28
 

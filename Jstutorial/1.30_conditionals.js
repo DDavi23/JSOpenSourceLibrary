@@ -14,8 +14,8 @@ if(condition){
 
 
 if(eaten > 5){
-	alert('Sorry, but there are only 5 apples');
+	console.log('Sorry, but there are only 5 apples');
 } else {
-	apples    -= eaten;
-	alert('Now there are only ' + apples + ' apples!');
+	(eaten < 5)
+	console.log('You need to eat more apples!');
 }
