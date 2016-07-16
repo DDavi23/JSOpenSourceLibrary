@@ -12,3 +12,17 @@ function turtleFact() {
 
 turtleFact();
 //line 13 will print out the fact about the turtle
+
+//Functions can accept arguments
+
+function callDog(dogName){
+	console.log("Come here Brewster");
+}
+callDog ("Brewster");
+
+function addNumbers (a,b){
+	console.log(a+b);
+}
+addNumbers(5,7);
+addNumbers(9,12);
+

@@ -1,13 +1,12 @@
 // loops through a block of code as long as a specified condition is true 
 //Use While loops when you are not sure how many times you want to perform a loop
 
-while (condition) {
-    statement
-}
+//while (condition) {
+ //   statement
+//}
 
-var count = 0;
-            console.log("Starting Loop ");
-         
-            while (count < 10){
-               console.log("Loop stopped");
-               }
+var bottlesOfBeer = 99;
+while (bottlesOfBeer >=1){
+	console.log(bottlesOfBeer + "bottle of beer on the wall");
+	bottlesOfBeer = bottlesOfBeer -9;
+}
