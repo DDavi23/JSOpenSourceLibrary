@@ -1,15 +1,13 @@
-//is basically just a list of items
-
-var students = new Array();
-
-students[0] = 'Dee';
-students[1] = 'Billy';
-students[2] = 'Sam';
-students[3] = 'Larry';
-students[4] = 'Sheila';
-
-//It can also be written as 
+//ordered lists of values
 
 var students = ['Dee', 'Billy', 'Sam', 'Larry', 'Sheila'];
 
-//JS is 0 based, so that is why it starts with 0 and not 1
+//You can put different types of data in an array
+
+var lotteryNumbers = [02, 04, 01, 12, 07, 06];
+console.log(lotteryNumbers.length);
+//prints out 6
+
+console.log(lotteryNumbers);
+//prints out all the lottery lotteryNumbers
+
