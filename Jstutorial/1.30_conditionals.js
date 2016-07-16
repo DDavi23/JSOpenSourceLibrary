@@ -20,6 +20,7 @@ a >= b greater than or equal to*/
 	// code to run if condition is false
 //}
 
+//If/else statement//
 
 var applesEaten = 6;
 
@@ -44,4 +45,18 @@ var applesEaten = 6;
  console.log("check your apple supply");
 
  }
+
+//if/else if/else statement//
+
+var age =25;
+
+if (age >=35){
+	console.log("You can vote AND hold any place in government");
+} else if (age >=25){
+	console.log("You can vote AND run for the Senate");
+}else if (age >= 18){
+	console.log("You can vote");
+} else {
+	console.log("You can\'t vote, but you can still write your Representative.")
+}
 
