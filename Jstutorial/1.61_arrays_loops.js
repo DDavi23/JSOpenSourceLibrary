@@ -1,28 +1,12 @@
-//used to iterate over an Array where the index order is important
+//use a for loop to process each item
 
-var array = [
-  {step: "step1", label: "Shoes1", price: "99.00"}, 
-  {step: "step2", label: "Shoes2", price: "89.00"}, 
-  {step: "step3", label: "Shoes3", price: "150.00"}
-]
+var rainbowColors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet'];
+for (var i = 0; i < rainbowColors.length; i++) {
+  console.log(rainbowColors[i]);
+}              
 
-array.forEach(function(item){
-  console.log(item.step, item.label, item.price);
+//prints out each colors
+
   
-})var a = [{
-  step: "step1",
-  label: "Shoes1",
-  price: "99.00"
-}, {
-  step: "step2",
-  label: "Shoes2",
-  price: "89.00"
-}, {
-  step: "step3",
-  label: "Shoes3",
-  price: "150.00"
-}]
 
-for (i = 0; i < a.length; i++) {
-  console.log(a[i]);
-}
+
