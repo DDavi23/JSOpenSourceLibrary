@@ -10,3 +10,6 @@ while (bottlesOfBeer >=1){
 	console.log(bottlesOfBeer + "bottle of beer on the wall");
 	bottlesOfBeer = bottlesOfBeer -9;
 }
+
+//This subtracts 9 bottles each time through as long as the bottle of beers are 
+//greater than or equal to 1
