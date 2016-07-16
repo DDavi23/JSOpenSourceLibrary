@@ -1,3 +1,6 @@
+//can hold functions
+//call object methods using dot notation
+
 var BrewsterTheDog = {
   age: 4,
   furColor: 'tan',
@@ -11,3 +14,13 @@ var BrewsterTheDog = {
 
 BrewsterTheDog.dog();
 BrewsterTheDog.eat('Hungery Howie pizza crust');
+
+/*built-in methods are:
+arrays
+booleans
+numbers
+strings
+regexp
+date
+math*/
+
