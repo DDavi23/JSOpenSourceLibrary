@@ -3,18 +3,29 @@
 /*for (initialization; condition; final expression) {
     code block to be executed
 }*/
+//will count 1 to 10
+var count = 10;
 
+for (var i = 0; i < count; i ++){
+	console.log(i);
+}
 
-var myDogs = [
-  {name: 'Brewster', 
-   age: 4},
-  {name: 'Charlie',
-   age: 14}
-];
+//can add other statements or logical operators inside of the loops
+//count from 1 to 50
+for (var i = 1; i <=50; i++){
+	console.log(i);
+	//says Buzz Fter multiples of three
+	if (i % 3 == 0){
+		console.log("Buzz");
+	}
+	//says Bang after multiple of five
+	if (i % 5 == 0){
+		console.log("Bang");
+	}
+}
 
-for (var i = 0; i < myDogs.length; i++) {
-  var myDog = myDogs[i];
-  console.log(myDog.name + ' is ' + myDog.age + ' years old.');
-
-//we initialize with i = 0 and iterate while our condition i < 5 is true
-// We'll increment i by 1 in each loop iteration with i++ as our final-expression.
+//to exit from a loop
+//count from 100 t0 200
+for (var i = 100; i <=200; i++){
+	console.log("Testing" + i);
+}
