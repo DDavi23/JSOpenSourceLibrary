@@ -1,5 +1,12 @@
-//A string can be any text inside double or single quotes. It does not have to end with a semicolon
+//A string can be any text inside double or single quotes. 
+//It may contain letters, words, spaces, numbers, symbols, or almost anything you like
+//It does not have to end with a semicolon
 //but this is good practice
+//varvariablename='stringtext';
+
+var myCar='Infinti';
+var myComputer='HP, 500 MHz, 128MB';
+var jibberish='I am @ home 4 now. yeah! lol, right!'
 
 var firstName = 'Danyel';
 
