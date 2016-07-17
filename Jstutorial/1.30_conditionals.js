@@ -45,6 +45,23 @@ var applesEaten = 6;
  console.log("check your apple supply");
 
  }
+//****************************//
+var number=1; 
+var mymoney=0; 
+if (number > 2) 
+{ 
+	console.log("I'm in good shape");
+mymoney=100; 
+} 
+else 
+{ 
+mymoney= -100; 
+console.log("I'm in trouble with the bank");
+} 
+//This set of code decides the fate of the variable mymoney, 
+//based on the value of the variable number. 
+//If number is greater than 2, then the value of mymoney will be changed to 100, and I'm in good shape 
+//If number is not greater than 2, the mymoney is -100, and I'm in some trouble with my bank.
 
 //if/else if/else statement//
 
