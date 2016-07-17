@@ -34,7 +34,7 @@ console.log(quote[3]);
 //arrays can also have different forms of data
 var lotteryNumbers = [02, 04, 01, 12, 07, 06];
 console.log(lotteryNumbers.length);
-//.length gives us the number of varibles
+//.length gives us the number of elements
 //prints out 6
 
 console.log(lotteryNumbers);
