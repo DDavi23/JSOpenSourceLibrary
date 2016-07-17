@@ -1,6 +1,10 @@
-//block of code designed to perform a particular task
+// A function is a set of JavaScript statements put together for a single purpose
 //we do not have to define the function before we use it
 //the code for a function MUST be contained by curly brackets {}
+//To make use of the function, you will make a call to the function when you want to use it. 
+//You call a function by using the name, any parameters you want to send, and a semicolon, like this:
+
+function dosomething (mymoney, cost);
 
 
 function turtleFact() {
