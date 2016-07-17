@@ -9,7 +9,12 @@ JavaScript Statements....
 //This means that the loop begins with condition 1, ends with condition 2, 
 //and perform the command each time through. 
 
+
+
 //will count 1 to 10
+//this means the loop count starts a 0
+//and as long as i is less than 10, the command i++ is to be executed
+//when i is no longer less than 10, the command or loops stops
 
 var count = 10;
 
