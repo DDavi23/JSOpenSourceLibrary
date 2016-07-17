@@ -1,9 +1,16 @@
-//loops through a block of code a number of times
+//performs a set of commands a number of times, 
+//and ends when you have what you need. 
 
-/*for (initialization; condition; final expression) {
-    code block to be executed
+/*for ( condition1; condition2; command) 
+{ 
+JavaScript Statements.... 
 }*/
+
+//This means that the loop begins with condition 1, ends with condition 2, 
+//and perform the command each time through. 
+
 //will count 1 to 10
+
 var count = 10;
 
 for (var i = 0; i < count; i ++){
@@ -14,7 +21,7 @@ for (var i = 0; i < count; i ++){
 //count from 1 to 50
 for (var i = 1; i <=50; i++){
 	console.log(i);
-	//says Buzz Fter multiples of three
+	//says Buzz after multiples of three
 	if (i % 3 == 0){
 		console.log("Buzz");
 	}
