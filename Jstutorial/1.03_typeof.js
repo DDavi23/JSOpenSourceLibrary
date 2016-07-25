@@ -12,7 +12,7 @@ Function object would return "function"
 Any other object would return "object" */
 
 //returns a number
-typeof 100;
+typeof 39;
 
 //returns a string
 typeof "Danyel";
