@@ -11,12 +11,12 @@ Symbol would return "symbol"
 Function object would return "function"
 Any other object would return "object" */
 
-//returns a number
-typeof 39;
+//returns number
+console.log(typeof 39);
 
-//returns a string
-typeof "Danyel";
+//returns string
+console.log(typeof "Danyel");
 
-//returns a boolean
-typeof false; 
+//returns boolean
+console.log(typeof false); 
 
